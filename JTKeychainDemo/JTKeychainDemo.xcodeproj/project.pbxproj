@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1641E23A1DE182E4005CC83B /* JTAccountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1641E2391DE182E4005CC83B /* JTAccountsViewController.m */; };
+		169208141DE0B8A400D919BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 169208131DE0B8A400D919BE /* main.m */; };
+		169208171DE0B8A400D919BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 169208161DE0B8A400D919BE /* AppDelegate.m */; };
+		1692081F1DE0B8A400D919BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1692081E1DE0B8A400D919BE /* Assets.xcassets */; };
+		169208221DE0B8A400D919BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169208201DE0B8A400D919BE /* LaunchScreen.storyboard */; };
+		1692082D1DE0B8A400D919BE /* JTKeychainDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1692082C1DE0B8A400D919BE /* JTKeychainDemoTests.m */; };
+		169208381DE0B8A400D919BE /* JTKeychainDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 169208371DE0B8A400D919BE /* JTKeychainDemoUITests.m */; };
+		169A5B201DE99E8E00D3A651 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 169A5B1F1DE99E8E00D3A651 /* KeychainWrapper.m */; };
+		16FAFCF61DEAF195001F2377 /* JTDetailAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FAFCF51DEAF195001F2377 /* JTDetailAccountViewController.m */; };
+		16FAFCF91DEB201B001F2377 /* JTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FAFCF81DEB201B001F2377 /* JTBaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		169208291DE0B8A400D919BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169208071DE0B8A400D919BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1692080E1DE0B8A400D919BE;
+			remoteInfo = JTKeychainDemo;
+		};
+		169208341DE0B8A400D919BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169208071DE0B8A400D919BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1692080E1DE0B8A400D919BE;
+			remoteInfo = JTKeychainDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1641E2381DE182E4005CC83B /* JTAccountsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAccountsViewController.h; sourceTree = "<group>"; };
+		1641E2391DE182E4005CC83B /* JTAccountsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTAccountsViewController.m; sourceTree = "<group>"; };
+		1692080F1DE0B8A400D919BE /* JTKeychainDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTKeychainDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		169208131DE0B8A400D919BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		169208151DE0B8A400D919BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		169208161DE0B8A400D919BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1692081E1DE0B8A400D919BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		169208211DE0B8A400D919BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		169208231DE0B8A400D919BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169208281DE0B8A400D919BE /* JTKeychainDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTKeychainDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1692082C1DE0B8A400D919BE /* JTKeychainDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTKeychainDemoTests.m; sourceTree = "<group>"; };
+		1692082E1DE0B8A400D919BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169208331DE0B8A400D919BE /* JTKeychainDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTKeychainDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		169208371DE0B8A400D919BE /* JTKeychainDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTKeychainDemoUITests.m; sourceTree = "<group>"; };
+		169208391DE0B8A400D919BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169208481DE0BA2500D919BE /* JTKeychainDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JTKeychainDemo.entitlements; sourceTree = "<group>"; };
+		169A5B1E1DE99E8E00D3A651 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
+		169A5B1F1DE99E8E00D3A651 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
+		16FAFCEE1DEAE315001F2377 /* KeychainConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainConfiguration.h; sourceTree = "<group>"; };
+		16FAFCF41DEAF195001F2377 /* JTDetailAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTDetailAccountViewController.h; sourceTree = "<group>"; };
+		16FAFCF51DEAF195001F2377 /* JTDetailAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDetailAccountViewController.m; sourceTree = "<group>"; };
+		16FAFCF71DEB201B001F2377 /* JTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTBaseViewController.h; sourceTree = "<group>"; };
+		16FAFCF81DEB201B001F2377 /* JTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTBaseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1692080C1DE0B8A400D919BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169208251DE0B8A400D919BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169208301DE0B8A400D919BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		169208061DE0B8A400D919BE = {
+			isa = PBXGroup;
+			children = (
+				169208111DE0B8A400D919BE /* JTKeychainDemo */,
+				1692082B1DE0B8A400D919BE /* JTKeychainDemoTests */,
+				169208361DE0B8A400D919BE /* JTKeychainDemoUITests */,
+				169208101DE0B8A400D919BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		169208101DE0B8A400D919BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1692080F1DE0B8A400D919BE /* JTKeychainDemo.app */,
+				169208281DE0B8A400D919BE /* JTKeychainDemoTests.xctest */,
+				169208331DE0B8A400D919BE /* JTKeychainDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		169208111DE0B8A400D919BE /* JTKeychainDemo */ = {
+			isa = PBXGroup;
+			children = (
+				169208481DE0BA2500D919BE /* JTKeychainDemo.entitlements */,
+				169208151DE0B8A400D919BE /* AppDelegate.h */,
+				169208161DE0B8A400D919BE /* AppDelegate.m */,
+				16FAFCF71DEB201B001F2377 /* JTBaseViewController.h */,
+				16FAFCF81DEB201B001F2377 /* JTBaseViewController.m */,
+				1641E2381DE182E4005CC83B /* JTAccountsViewController.h */,
+				1641E2391DE182E4005CC83B /* JTAccountsViewController.m */,
+				16FAFCF41DEAF195001F2377 /* JTDetailAccountViewController.h */,
+				16FAFCF51DEAF195001F2377 /* JTDetailAccountViewController.m */,
+				1692081E1DE0B8A400D919BE /* Assets.xcassets */,
+				169208201DE0B8A400D919BE /* LaunchScreen.storyboard */,
+				169208231DE0B8A400D919BE /* Info.plist */,
+				169A5B1D1DE99E8E00D3A651 /* KeychainWrapper */,
+				169208121DE0B8A400D919BE /* Supporting Files */,
+			);
+			path = JTKeychainDemo;
+			sourceTree = "<group>";
+		};
+		169208121DE0B8A400D919BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				169208131DE0B8A400D919BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1692082B1DE0B8A400D919BE /* JTKeychainDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1692082C1DE0B8A400D919BE /* JTKeychainDemoTests.m */,
+				1692082E1DE0B8A400D919BE /* Info.plist */,
+			);
+			path = JTKeychainDemoTests;
+			sourceTree = "<group>";
+		};
+		169208361DE0B8A400D919BE /* JTKeychainDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				169208371DE0B8A400D919BE /* JTKeychainDemoUITests.m */,
+				169208391DE0B8A400D919BE /* Info.plist */,
+			);
+			path = JTKeychainDemoUITests;
+			sourceTree = "<group>";
+		};
+		169A5B1D1DE99E8E00D3A651 /* KeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				169A5B1E1DE99E8E00D3A651 /* KeychainWrapper.h */,
+				169A5B1F1DE99E8E00D3A651 /* KeychainWrapper.m */,
+				16FAFCEE1DEAE315001F2377 /* KeychainConfiguration.h */,
+			);
+			path = KeychainWrapper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1692080E1DE0B8A400D919BE /* JTKeychainDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1692083C1DE0B8A400D919BE /* Build configuration list for PBXNativeTarget "JTKeychainDemo" */;
+			buildPhases = (
+				1692080B1DE0B8A400D919BE /* Sources */,
+				1692080C1DE0B8A400D919BE /* Frameworks */,
+				1692080D1DE0B8A400D919BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTKeychainDemo;
+			productName = JTKeychainDemo;
+			productReference = 1692080F1DE0B8A400D919BE /* JTKeychainDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		169208271DE0B8A400D919BE /* JTKeychainDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1692083F1DE0B8A400D919BE /* Build configuration list for PBXNativeTarget "JTKeychainDemoTests" */;
+			buildPhases = (
+				169208241DE0B8A400D919BE /* Sources */,
+				169208251DE0B8A400D919BE /* Frameworks */,
+				169208261DE0B8A400D919BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1692082A1DE0B8A400D919BE /* PBXTargetDependency */,
+			);
+			name = JTKeychainDemoTests;
+			productName = JTKeychainDemoTests;
+			productReference = 169208281DE0B8A400D919BE /* JTKeychainDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		169208321DE0B8A400D919BE /* JTKeychainDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169208421DE0B8A400D919BE /* Build configuration list for PBXNativeTarget "JTKeychainDemoUITests" */;
+			buildPhases = (
+				1692082F1DE0B8A400D919BE /* Sources */,
+				169208301DE0B8A400D919BE /* Frameworks */,
+				169208311DE0B8A400D919BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169208351DE0B8A400D919BE /* PBXTargetDependency */,
+			);
+			name = JTKeychainDemoUITests;
+			productName = JTKeychainDemoUITests;
+			productReference = 169208331DE0B8A400D919BE /* JTKeychainDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		169208071DE0B8A400D919BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = JT;
+				TargetAttributes = {
+					1692080E1DE0B8A400D919BE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = KQ8TXSNRQE;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					169208271DE0B8A400D919BE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1692080E1DE0B8A400D919BE;
+					};
+					169208321DE0B8A400D919BE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1692080E1DE0B8A400D919BE;
+					};
+				};
+			};
+			buildConfigurationList = 1692080A1DE0B8A400D919BE /* Build configuration list for PBXProject "JTKeychainDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 169208061DE0B8A400D919BE;
+			productRefGroup = 169208101DE0B8A400D919BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1692080E1DE0B8A400D919BE /* JTKeychainDemo */,
+				169208271DE0B8A400D919BE /* JTKeychainDemoTests */,
+				169208321DE0B8A400D919BE /* JTKeychainDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1692080D1DE0B8A400D919BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169208221DE0B8A400D919BE /* LaunchScreen.storyboard in Resources */,
+				1692081F1DE0B8A400D919BE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169208261DE0B8A400D919BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169208311DE0B8A400D919BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1692080B1DE0B8A400D919BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FAFCF61DEAF195001F2377 /* JTDetailAccountViewController.m in Sources */,
+				16FAFCF91DEB201B001F2377 /* JTBaseViewController.m in Sources */,
+				169208171DE0B8A400D919BE /* AppDelegate.m in Sources */,
+				169208141DE0B8A400D919BE /* main.m in Sources */,
+				169A5B201DE99E8E00D3A651 /* KeychainWrapper.m in Sources */,
+				1641E23A1DE182E4005CC83B /* JTAccountsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169208241DE0B8A400D919BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1692082D1DE0B8A400D919BE /* JTKeychainDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1692082F1DE0B8A400D919BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169208381DE0B8A400D919BE /* JTKeychainDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1692082A1DE0B8A400D919BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1692080E1DE0B8A400D919BE /* JTKeychainDemo */;
+			targetProxy = 169208291DE0B8A400D919BE /* PBXContainerItemProxy */;
+		};
+		169208351DE0B8A400D919BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1692080E1DE0B8A400D919BE /* JTKeychainDemo */;
+			targetProxy = 169208341DE0B8A400D919BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		169208201DE0B8A400D919BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				169208211DE0B8A400D919BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1692083A1DE0B8A400D919BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1692083B1DE0B8A400D919BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1692083D1DE0B8A400D919BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = JTKeychainDemo/JTKeychainDemo.entitlements;
+				DEVELOPMENT_TEAM = KQ8TXSNRQE;
+				INFOPLIST_FILE = JTKeychainDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xia.www.JTKeychainDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1692083E1DE0B8A400D919BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = JTKeychainDemo/JTKeychainDemo.entitlements;
+				DEVELOPMENT_TEAM = KQ8TXSNRQE;
+				INFOPLIST_FILE = JTKeychainDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xia.www.JTKeychainDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		169208401DE0B8A400D919BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JTKeychainDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xia.www.JTKeychainDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JTKeychainDemo.app/JTKeychainDemo";
+			};
+			name = Debug;
+		};
+		169208411DE0B8A400D919BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JTKeychainDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xia.www.JTKeychainDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JTKeychainDemo.app/JTKeychainDemo";
+			};
+			name = Release;
+		};
+		169208431DE0B8A400D919BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JTKeychainDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xia.www.JTKeychainDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JTKeychainDemo;
+			};
+			name = Debug;
+		};
+		169208441DE0B8A400D919BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JTKeychainDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xia.www.JTKeychainDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JTKeychainDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1692080A1DE0B8A400D919BE /* Build configuration list for PBXProject "JTKeychainDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1692083A1DE0B8A400D919BE /* Debug */,
+				1692083B1DE0B8A400D919BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1692083C1DE0B8A400D919BE /* Build configuration list for PBXNativeTarget "JTKeychainDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1692083D1DE0B8A400D919BE /* Debug */,
+				1692083E1DE0B8A400D919BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1692083F1DE0B8A400D919BE /* Build configuration list for PBXNativeTarget "JTKeychainDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169208401DE0B8A400D919BE /* Debug */,
+				169208411DE0B8A400D919BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169208421DE0B8A400D919BE /* Build configuration list for PBXNativeTarget "JTKeychainDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169208431DE0B8A400D919BE /* Debug */,
+				169208441DE0B8A400D919BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 169208071DE0B8A400D919BE /* Project object */;
+}
